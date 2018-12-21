@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
-import {
-  WebView
-} from 'react-native';
+import React from 'react';
+import SalariumWebView from './src/components/SalariumWebView'
 
 const App = _ => {
-  return <WebView source={{uri: 'http://app.salarium.com'}}/>
+  return <SalariumWebView />
 }
 
 export default App
