@@ -1,8 +1,8 @@
 import React from 'react';
-import SalariumWebView from './src/components/SalariumWebView'
+import Login from './src/components/Login'
 
 const App = _ => {
-  return <SalariumWebView />
+  return <Login />
 }
 
 export default App
